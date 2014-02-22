@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>URL Shortener</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        <script type=text/javascript>
+            $(function(){
+                $('a#shorten').bind('click', function(){
+                    $.getJSON('/shorten', {
+                        longurl: $('input[name="longurl"]').val()
+                    }, function(data) {
+                        $("#shorturl").text(data.result);
+                        $("#shorturl").attr("href", data.result);
+                    });
+                    return false;
+                 });
+            });
+        </script>
+    </head>
+    <body>
+        URL to shorten: <input type="text" name="longurl">
+        <a href="javascript:void();" id="shorten">shorten</a>
+        <div>
+            <span>Shortened URL: </span><a href="" id="shorturl"></span>
+        </div>
+    </body>
+</html>
