@@ -3,7 +3,7 @@ Url-Shortener
 
 Simple URL Shortener in Flask
 
-Demo available if you run locally:
+Demo available if you download zip and run locally:
 >flask/bin/python run.py
 
 
