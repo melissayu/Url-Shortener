@@ -7,8 +7,8 @@ Demo available if you download zip and run locally:
 >flask/bin/python run.py
 
 
-Most relevent code is in:\n
-shortenerapp/__init__.py\n
-shortenerapp/views.py\n
-shortenerapp/models.py\n
+Most relevent code is in:
+shortenerapp/__init__.py<br>
+shortenerapp/views.py<br>
+shortenerapp/models.py<br>
 shortenerapp/templates/index.html
