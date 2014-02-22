@@ -8,7 +8,7 @@ Demo available if you download zip and run locally:
 
 
 Most relevent code is in:<br>
-shortenerapp/__init__.py<br>
+shortenerapp/\_\_init__.py<br>
 shortenerapp/views.py<br>
 shortenerapp/models.py<br>
 shortenerapp/templates/index.html
